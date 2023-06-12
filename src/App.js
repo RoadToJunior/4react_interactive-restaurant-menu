@@ -16,6 +16,10 @@ class App extends React.Component {
       }
       return item;
     });
+
+    this.setState({
+      items,
+    });
   };
   render() {
     return (
