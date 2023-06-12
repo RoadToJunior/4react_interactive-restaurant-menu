@@ -5,9 +5,8 @@ const Header = (props) => {
     <header>
       <h2>Wielkość zamówienia: {number}</h2>
       <h2>
-        Do zapłaty:{" "}
+        Do zapłaty:
         {number ? `${number * 10} złotych` : "nie kupujesz, to nie płacisz"}
-        złotych
       </h2>
     </header>
   );
